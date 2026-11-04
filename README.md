@@ -27,10 +27,9 @@ Every alert is stored before it is sent, and noisy repeats are filtered out, so 
 
 | | Project | What it does |
 |---|---|---|
-| 🛰️ | [Telemetry-n8n](https://github.com/World-Trade-Factory/Telemetry-n8n) | 30+ node n8n pipeline: deduplication, flapping detection, suppression, P1–P4 routing |
-| 📈 | [WTF-SKORE](https://github.com/Parkavi111/WTF-SKORE) | Claude-written equity research reports with live market data and an approve/reject email step |
-| ♾️ | [infinityxz-n8n-workflows](https://github.com/Parkavi111/infinityxz-n8n-workflows) | Client automation: brief delivery, re-engagement, weekly digest |
-| 🚗 | [veloce-thar-concierge](https://github.com/Parkavi111/veloce-thar-concierge) | Concept showroom site with an AI concierge ([live demo](https://parkavi111.github.io/veloce-thar-concierge/)) |
+| 🛰️ | **Telemetry-n8n** *(private, company repo)* | 30+ node n8n pipeline: deduplication, flapping detection, suppression, P1–P4 routing |
+| 📈 | **WTF-SKORE** *(private)* | Claude-written equity research reports with live market data and an approve/reject email step |
+| ♾️ | **infinityxz-n8n-workflows** *(private)* | Client automation: brief delivery, re-engagement, weekly digest || 🚗 | [veloce-thar-concierge](https://github.com/Parkavi111/veloce-thar-concierge) | Concept showroom site with an AI concierge ([live demo](https://parkavi111.github.io/veloce-thar-concierge/)) |
 
 ## 🌐 Connect
 
