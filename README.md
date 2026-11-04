@@ -1,16 +1,37 @@
-## Hi there 👋
+```bash
+$ whoami
+parkavi — AI Automation Engineer
 
-<!--
-**Parkavi111/Parkavi111** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+$ cat stack.txt
+n8n · Claude API · Supabase · PostgreSQL · Docker · Linux · Python · JavaScript
 
-Here are some ideas to get you started:
+$ status
+building  → telemetry alert pipelines, LLM workflows
+learning  → LiteLLM gateway, GCP server deployment
+open to   → AI automation · n8n · DevOps · technical operations roles
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## ⚡ How I think about automation
+
+```text
+ webhook ──▶ validate ──▶ store ──▶ dedupe ──▶ flapping check
+                                                     │
+                       P1 🔴  P2 🟠  P3 🟡  P4 🟢 ◀── severity routing
+                                                     │
+                      quiet hours · rate limit · kill switch
+```
+
+Every alert is stored before it is sent, and noisy repeats are filtered out, so people only see what matters.
+
+## 🛠️ Projects
+
+| | Project | What it does |
+|---|---|---|
+| 🛰️ | [Telemetry-n8n](https://github.com/World-Trade-Factory/Telemetry-n8n) | 30+ node n8n pipeline: deduplication, flapping detection, suppression, P1–P4 routing |
+| 📈 | [WTF-SKORE](https://github.com/Parkavi111/WTF-SKORE) | Claude-written equity research reports with live market data and an approve/reject email step |
+| ♾️ | [infinityxz-n8n-workflows](https://github.com/Parkavi111/infinityxz-n8n-workflows) | Client automation: brief delivery, re-engagement, weekly digest |
+| 🚗 | [veloce-thar-concierge](https://github.com/Parkavi111/veloce-thar-concierge) | Concept showroom site with an AI concierge ([live demo](https://parkavi111.github.io/veloce-thar-concierge/)) |
+
+## 🌐 Connect
+
+[parkaviautomation.com](https://parkaviautomation.com) · [LinkedIn](https://linkedin.com/in/parkavi-53136242a)
