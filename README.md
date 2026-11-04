@@ -29,7 +29,8 @@ Every alert is stored before it is sent, and noisy repeats are filtered out, so 
 |---|---|---|
 | 🛰️ | **Telemetry-n8n** *(private, company repo)* | 30+ node n8n pipeline: deduplication, flapping detection, suppression, P1–P4 routing |
 | 📈 | **WTF-SKORE** *(private)* | Claude-written equity research reports with live market data and an approve/reject email step |
-| ♾️ | **infinityxz-n8n-workflows** *(private)* | Client automation: brief delivery, re-engagement, weekly digest || 🚗 | [veloce-thar-concierge](https://github.com/Parkavi111/veloce-thar-concierge) | Concept showroom site with an AI concierge ([live demo](https://parkavi111.github.io/veloce-thar-concierge/)) |
+| ♾️ | **infinityxz-n8n-workflows** *(private)* | Client automation: brief delivery, re-engagement, weekly digest |
+| 🚗 | [veloce-thar-concierge](https://github.com/Parkavi111/veloce-thar-concierge) | Concept showroom site with an AI concierge ([live demo](https://parkavi111.github.io/veloce-thar-concierge/)) |
 
 ## 🌐 Connect
 
