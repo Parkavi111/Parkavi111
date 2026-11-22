@@ -42,6 +42,7 @@ Two layers check every AI-written post, and a blocked post is logged instead of 
 | ♾️ | **infinityxz-n8n-workflows** *(private)* | Client automation: brief delivery, re-engagement, weekly digest |
 | ⓕ | [placidway-daily-facebook-post](https://github.com/Parkavi111/placidway-daily-facebook-post) | n8n workflow: AI-written daily Facebook post with two-layer guardrails and an approval option |
 | 🚗 | [veloce-thar-concierge](https://github.com/Parkavi111/veloce-thar-concierge) | Concept showroom site with an AI concierge ([live demo](https://parkavi111.github.io/veloce-thar-concierge/)) |
+| 🧭 | [nextstep-wellbeing-compass](https://github.com/Parkavi111/nextstep-wellbeing-compass) | 4-question app that suggests one gentle next step, with hard-coded safety rules (demo, fictional data) |
 
 ## 🌐 Connect
 
