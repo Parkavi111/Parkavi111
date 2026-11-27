@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0d1117,100:1f6feb&text=Parkavi%20S&fontColor=ffffff&fontSize=40&fontAlignY=40" alt="Header" />
-
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=560&lines=AI+Automation+Engineer;n8n+workflows+and+LLM+pipelines;Alerts+%7C+Telemetry+%7C+Guardrails" alt="Typing animation" />
 
 [![Website](https://img.shields.io/badge/Website-parkaviautomation.com-1f6feb?style=flat-square)](https://parkaviautomation.com)
@@ -22,6 +20,7 @@ open to   → AI automation · n8n · DevOps · technical operations roles
 ## 🛠️ Tech Stack
 
 <p align="center">
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
   <img src="https://skillicons.dev/icons?i=py,js,postgres,supabase,docker,linux,git,github" alt="Tech stack icons" />
 </p>
 
@@ -37,12 +36,34 @@ open to   → AI automation · n8n · DevOps · technical operations roles
 
 ```mermaid
 flowchart LR
-  A[Webhook] --> B[Validate] --> C[Store] --> D[Dedupe] --> E[Flapping check] --> F{Severity routing}
-  F --> P1[P1 🔴]
-  F --> P2[P2 🟠]
-  F --> P3[P3 🟡]
-  F --> P4[P4 🟢]
-  G[Quiet hours, rate limit, kill switch] -.-> F
+  A[Webhook] e1@--> B[Validate] e2@--> C[Store] e3@--> D[Dedupe] e4@--> E[Flapping check] e5@--> F{Severity routing}
+  F e6@--> P1[P1 🔴]
+  F e7@--> P2[P2 🟠]
+  F e8@--> P3[P3 🟡]
+  F e9@--> P4[P4 🟢]
+  G[Quiet hours, rate limit, kill switch] e10@-.-> F
+
+  e1@{ animate: true }
+  e2@{ animate: true }
+  e3@{ animate: true }
+  e4@{ animate: true }
+  e5@{ animate: true }
+  e6@{ animate: true }
+  e7@{ animate: true }
+  e8@{ animate: true }
+  e9@{ animate: true }
+  e10@{ animate: true }
+
+  classDef input fill:#1f6feb,stroke:#58a6ff,color:#ffffff
+  classDef step fill:#238636,stroke:#3fb950,color:#ffffff
+  classDef check fill:#9e6a03,stroke:#d29922,color:#ffffff
+  classDef route fill:#8957e5,stroke:#bc8cff,color:#ffffff
+  classDef guard fill:#da3633,stroke:#f85149,color:#ffffff
+  class A input
+  class B,C,D step
+  class E check
+  class F,P1,P2,P3,P4 route
+  class G guard
 ```
 
 Every alert is stored before it is sent, and noisy repeats are filtered out, so people only see what matters.
@@ -51,9 +72,28 @@ Every alert is stored before it is sent, and noisy repeats are filtered out, so 
 
 ```mermaid
 flowchart LR
-  A[Pick page] --> B[LLM writes post] --> C[Rule check] --> D[LLM fact check] --> E{Approve?} --> F[Publish]
-  C -- blocked --> X[Log and email alert]
-  D -- blocked --> X
+  A[Pick page] e1@--> B[LLM writes post] e2@--> C[Rule check] e3@--> D[LLM fact check] e4@--> E{Approve?} e5@--> F[Publish]
+  C e6@-->|blocked| X[Log and email alert]
+  D e7@-->|blocked| X
+
+  e1@{ animate: true }
+  e2@{ animate: true }
+  e3@{ animate: true }
+  e4@{ animate: true }
+  e5@{ animate: true }
+  e6@{ animate: true }
+  e7@{ animate: true }
+
+  classDef input fill:#1f6feb,stroke:#58a6ff,color:#ffffff
+  classDef ai fill:#8957e5,stroke:#bc8cff,color:#ffffff
+  classDef check fill:#9e6a03,stroke:#d29922,color:#ffffff
+  classDef ok fill:#238636,stroke:#3fb950,color:#ffffff
+  classDef stop fill:#da3633,stroke:#f85149,color:#ffffff
+  class A input
+  class B,D ai
+  class C,E check
+  class F ok
+  class X stop
 ```
 
 Two layers check every AI-written post, and a blocked post is logged instead of published.
@@ -87,9 +127,3 @@ Two layers check every AI-written post, and a blocked post is logged instead of 
 - LLM workflows
 - LiteLLM gateway
 - GCP server deployment
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=80&color=0:1f6feb,100:0d1117&section=footer" alt="Footer" />
-
-</div>
