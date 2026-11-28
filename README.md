@@ -5,7 +5,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=560&lines=AI+Automation+Engineer;n8n+workflows+and+LLM+pipelines;Alerts+%7C+Telemetry+%7C+Guardrails" alt="Typing animation" />
 
 [![Website](https://img.shields.io/badge/Website-parkaviautomation.com-1f6feb?style=flat-square)](https://parkaviautomation.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Parkavi_S-0a66c2?style=flat-square)](https://linkedin.com/in/parkavi-53136242a)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Parkavi_S-0a66c2?style=flat-square)](https://linkedin.com/in/parkavi-s-53136242a)
 
 </div>
 
